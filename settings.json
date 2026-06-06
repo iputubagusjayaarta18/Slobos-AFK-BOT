@@ -19,7 +19,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "Flow_Whatcher"
+      "password": "Flow_Pasword"
     },
     "anti-afk": {
       "enabled": true,
