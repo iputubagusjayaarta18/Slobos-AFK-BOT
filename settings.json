@@ -41,24 +41,24 @@
     "max-reconnect-delay": 20000,
     "periodic-rejoin": {
       "enabled": false,
-      "min-interval": 20,
-      "max-interval": 60
+      "min-interval": 0,
+      "max-interval": 0
     }
   },
   "movement": {
     "enabled": false,
     "circle-walk": {
       "enabled": false,
-      "radius": 4,
-      "speed": 3000
+      "radius": 0,
+      "speed": 0
     },
     "look-around": {
       "enabled": false,
-      "interval": 5000
+      "interval": 0
     },
     "random-jump": {
       "enabled": false,
-      "interval": 10000
+      "interval": 0
     }
   },
   "modules": {
@@ -78,10 +78,10 @@
   },
   "discord": {
     "enabled": false,
-    "webhookUrl": "https://discord.com/api/webhooks/1472567640521183243/7DzSIaCSM_9-5DjzrlAuP9Tdj7Y3yAP6BHg3scKzhaRFdVk8ctWBlhOc7I8l5xC6Nqm3",
+    "webhookUrl": "https://discord.com/api/webhooks/disabled-flow-smp-official",
     "events": {
-      "connect": true,
-      "disconnect": true,
+      "connect": false,
+      "disconnect": false,
       "chat": false
     }
   },
