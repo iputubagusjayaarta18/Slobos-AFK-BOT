@@ -1,5 +1,5 @@
 {
-  "name": "AFK Bot",
+  "name": "Flow Whatcher System",
   "bot-account": {
     "username": "Flow_Watcher",
     "password": "",
@@ -19,7 +19,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "Slobos"
+      "password": "Flow_SMP"
     },
     "anti-afk": {
       "enabled": true,
@@ -30,9 +30,9 @@
       "repeat": false,
       "repeat-delay": 500,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "Welcome to Flow SMP Season 3!",
+        "Securely protected by Flow Watcher System.",
+        "Enjoy your stay in our world!"
       ]
     },
     "chat-log": true,
