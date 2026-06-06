@@ -1,7 +1,7 @@
 {
   "name": "Flow Whatcher System",
   "bot-account": {
-    "username": "Flow_Watcher",
+    "username": "_FlowEntity",
     "password": "",
     "type": "offline"
   },
@@ -11,15 +11,15 @@
     "version": "1.21.1"
   },
   "position": {
-    "enabled": true,
+    "enabled": false,
     "x": 0,
-    "y": 100,
+    "y": 0,
     "z": 0
   },
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "Flow_Pasword"
+      "password": "FlowEntitySystem#2026"
     },
     "anti-afk": {
       "enabled": true,
@@ -31,10 +31,10 @@
       "repeat-delay": 0,
       "messages": []
     },
-    "chat-log": true,
-    "auto-reconnect": true,
-    "auto-reconnect-delay": 5000,
-    "max-reconnect-delay": 20000,
+    "chat-log": false,
+    "auto-reconnect": false,
+    "auto-reconnect-delay": 0,
+    "max-reconnect-delay": 0,
     "periodic-rejoin": {
       "enabled": false,
       "min-interval": 0,
@@ -42,15 +42,15 @@
     }
   },
   "movement": {
-    "enabled": false,
+    "enabled": true,
     "circle-walk": {
       "enabled": false,
       "radius": 0,
       "speed": 0
     },
     "look-around": {
-      "enabled": false,
-      "interval": 0
+      "enabled": true,
+      "interval": 3000
     },
     "random-jump": {
       "enabled": false,
@@ -74,7 +74,7 @@
   },
   "discord": {
     "enabled": false,
-    "webhookUrl": "https://discord.com/api/webhooks/disabled-flow-smp-official",
+    "webhookUrl": "",
     "events": {
       "connect": false,
       "disconnect": false,
